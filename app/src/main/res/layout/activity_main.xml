@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#e0e0e0"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/HeadButton"
+            android:id="@+id/btn_contatcs"
+            android:text="@string/contacts"
+            android:background="@drawable/head_button" />
+
+        <TextView
+            style="@style/HeadButton"
+            android:id="@+id/btn_chats"
+            android:text="@string/chats"
+            android:layout_marginStart="1dp"
+            android:background="@drawable/head_button" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="message_bg">#ffffff</color>
+    <color name="message_outline">#f0f0f0</color>
+    <color name="nickname">#4F61C5</color>
+    <color name="msg_time">#808080</color>
+    <color name="btn_selected">#5F71d5</color>
+</resources>
